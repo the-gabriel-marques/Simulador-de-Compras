@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Simulador de Compras</title>
+</head>
+<body>
+    <header class="card-panel teal lighten-2">
+        <h1>Bem vindo ao Simulador de Compras</h1>
+    </header>
+
+    <div class="container">
+
+    <main>
+        <section>
+                <input type="text" id="produto" placeholder="Digite o nome do produto">
+                <button class="btn waves-effect waves-light" id="procurarProduto">Pesquisar</button>
+        </section>
+        <section id="listaProdutos"></section>
+        <br>
+        <section>
+            <button class="btn waves-effect waves-light" id="adicionar">Adicionar ao Carrinho</button>
+        </section>
+        <br>
+        <section>
+            <button class="btn waves-effect waves-light" id="remover">Remover produto do carrinho</button>
+            <input type="text" id="produtoRemovido" placeholder="Qual produto deseja remover?">
+        </section>
+        <section id="listaCarrinho"></section>
+    </main>
+    <script src="app.js" defer></script>
+    </div>
+</body>
+</html>

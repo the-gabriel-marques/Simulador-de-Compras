@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'SummerPixel';
+    src: url('./fontes/SummerPixel22Regular-jE0W7.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    text-align: center;
+    -webkit-text-stroke-color: rgb(124, 7, 232);
+    -webkit-text-stroke-width: 2.5px;
+    color: rgb(230, 60, 173);
+    font-family: 'SummerPixel';
+    font-size: 90px;
+}
